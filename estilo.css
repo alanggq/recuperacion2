@@ -1,0 +1,29 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+h1{
+    color: white;
+    font-size: 50px;
+    text-shadow:5px 5px 5px yellow;
+    margin: 10px;
+}
+h2{
+    color: white;
+    font-size: 20px;
+    text-shadow:2px 2px 0px black;
+    margin: 10px;
+}
+
+a:hover{
+    background: red;
+    color: yellow;
+    transform: scale(1.2);
+    transition: 2s all ease;
+}
+a:active{
+    transform:scale(1,0) ;
+    background: blue;
+    color: white;
+    transition: 1s all ease;
+}
